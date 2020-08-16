@@ -1,17 +1,38 @@
-body {
-    background-color: white;
+body{
+    border: 6px solid Black;
+    min-height: 800px;
 }
 
-nav {
-    background-color: black;
-    color:white;
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height:100px;
+    /* border: 10px solid red; */
 }
 
-.dropdown a:hover{
-    background-color:white;
-    color:black;
+div.logo{
+    border: 6px solid blue;
+    flex-basis:15%;
 }
 
-.active-nav{
-    background-color:green;
+div.nav{
+    border: 6px solid green;
+    flex-basis:85%;
+}
+
+div.summary{
+    border: 10px solid purple;
+    height: 300px;
+}
+
+div.main{
+    border: 10px solid yellow;
+    height: 700px; /*TODO: this height is subject to change and maybe should change*/
+}
+
+footer{
+    display:flex;
+    align-self:flex-end;
+    border: 6px solid red;
 }
