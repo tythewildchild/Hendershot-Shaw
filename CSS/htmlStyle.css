@@ -5,20 +5,35 @@ body{
 
 header{
     display:flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    height:100px;
-    /* border: 10px solid red; */
+    flex-direction:column;
+    height:300px;
+    border: 10px solid red;
 }
 
-div.logo{
-    border: 6px solid blue;
-    flex-basis:15%;
+.logo{
+    display:flex;
+    max-height:220px;
 }
 
-div.nav{
-    border: 6px solid green;
-    flex-basis:85%;
+nav{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    justify-content:space-around;
+    height:100%;
+}
+
+nav ul{
+    display:flex;
+    justify-content:space-around;
+    list-style-type:none;
+    border:1px black solid;
+}
+nav ul li{
+    display:inline;
+}
+nav ul li:hover{
+    background-color:gray;
 }
 
 div.summary{
