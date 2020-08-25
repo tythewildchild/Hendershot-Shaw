@@ -44,10 +44,6 @@ div.summary{
 div.main{
     border: 10px solid yellow;
     height: 700px; /*TODO: this height is subject to change and maybe should change*/
-    p{
-        border: 5px solid lightBlue;
-        height: 400px; 
-    }
 }
 
 footer{
